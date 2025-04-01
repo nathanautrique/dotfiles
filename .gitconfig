@@ -1,0 +1,11 @@
+[user]
+	name = nathanautrique
+	email = 66000042+nathanautrique@users.noreply.github.com
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+[pull]
+	rebase = true
+[rerere]
+	enabled = true
