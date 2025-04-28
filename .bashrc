@@ -2,6 +2,9 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+#startship is a terminal decorator
+#eval "$(starship init bash)"
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -115,10 +118,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-#Nathan's variables permanently set for all bash sessions
-MYKANRC="/home/autri/kanata/kanata.kbd"
-. "$HOME/.cargo/env"
 
 #Autocomplete
 #Make bash autocomplete show a list to tab through
