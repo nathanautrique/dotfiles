@@ -10,8 +10,4 @@
 [rerere]
 	enabled = true
 [credential "https://github.com"]
-	helper = 
-	helper = !/home/autri/.local/bin/gh auth git-credential
-[credential "https://gist.github.com"]
-	helper = 
-	helper = !/home/autri/.local/bin/gh auth git-credential
+	helper = !/home/otrik/.local/bin/gh auth git-credential
